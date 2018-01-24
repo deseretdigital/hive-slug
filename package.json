@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Matt Montgomery <mmontgomery@deseretdigital.com>",
   "license": "MIT",
+  "repository": "https://github.com/mattmontgomery/hive-slug",
   "devDependencies": {
     "jest": "^22.1.4"
   },
