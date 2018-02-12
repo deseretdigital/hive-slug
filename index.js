@@ -7,7 +7,10 @@ const defaultOpts = {
     lower: true
 }
 
-module.exports = function slug(str, opts = {}) {
+module.exports = function slug(str, opts) {
+    if (!opts || typeof opts !== 'object') {
+         opts = {}
+    }
     if (typeof str !== 'string') {
         throw 'slug only takes strings'
     }
