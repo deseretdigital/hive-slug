@@ -21,7 +21,7 @@ module.exports = function slug(str, opts) {
         str = str.replace(/\s+$/g, '');
     }
     str = str.split('');
-    for (let i = 0; i < str.length; i++) {
+    for (var i = 0; i < str.length; i++) {
         const char = str[i];
         if (charmap[char]) {
             str[i] = charmap[char];
